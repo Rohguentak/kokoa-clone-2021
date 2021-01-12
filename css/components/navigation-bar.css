@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+  box-sizing: border-box; /* do not allow padding increase box size*/
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+  color: #2f363e;
+}
+.nav__notification {
+  background-color: tomato;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 21px;
+  bottom: 20px;
+}
+.nav__point {
+  background-color: tomato;
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}

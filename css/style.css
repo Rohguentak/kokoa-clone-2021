@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=Open+Sans:wght@300;600&display=swap");
 @import "reset.css";
 @import "variable.css";
+/*components*/
 @import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+/*screen*/
 @import "screens/login.css";
-@import body {
+@import "screens/friends.css";
+body {
+  color: #2f363e;
   font-family: "Open Sans", sans-serif;
 }
