@@ -123,7 +123,7 @@
   align-items: center;
   padding: 5px 15px;
   box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .reply input {
   padding: 5px;
@@ -180,7 +180,7 @@
   opacity: 0;
 }
 
-.reply:focus-within input {
+.reply input:focus {
   will-change: transform;
   width: 90vw;
   transform: translateX(-10%) translateY(-80px);
