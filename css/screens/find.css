@@ -97,3 +97,22 @@
 .open-post__heart-number span {
   margin-left: 3px;
 }
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart-number:hover i {
+  will-change: transform;
+  animation: heartbeat 1.3s linear infinite;
+}
