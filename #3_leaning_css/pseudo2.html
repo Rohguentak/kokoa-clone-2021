@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>the roh times</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+
+      span {
+        background-color: yellowgreen;
+        color: tomato;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      div > span {
+        text-decoration: underline;
+      }
+      input {
+          border: 1px solid wheat;
+      }
+     input:required {
+         border-color: tomato;
+     }
+     input[type="password"]{
+         background-color: blue;
+     }
+     input[placeholder~="name"] {
+background-color: pink;
+     }
+    </style>
+  </head>
+  <body>
+    <div>
+        <form><input type="text" placeholder="first name" />
+      <form><input type="text" placeholder="last name" />
+        <form><input type="password" required placeholder="password" />
+    </div>
+  </body>
+</html>

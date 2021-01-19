@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>the roh times</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 20px;
+      }
+      div {
+        height: 300px;
+        width: 300px;
+      }
+      button:active {
+        background-color: blue;
+      }
+      button:hover {
+        background-color: brown;
+      }
+      input:focus {
+        background-color: yellow;
+      }
+      a:visited {
+        color: yellowgreen;
+      }
+      a:hover {
+        color: tomato;
+      }
+      a:focus {
+        background-color: teal;
+      }
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:hover input:focus {
+        background-color: sienna;
+      }
+      form:focus-within {
+        border-color: seagreen;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+    </form>
+    <div>
+      <button>hello</button>
+      <input type="text" />
+      <input type="text" />
+      <a href="https://apple.com">go to apple</a>
+    </div>
+    >
+  </body>
+</html>
